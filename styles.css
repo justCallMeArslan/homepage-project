@@ -63,3 +63,43 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+}
+
+.header-inner {
+    display: flex;
+    padding: 30px 40px;
+}
+
+.header-prof-pic {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.header-prof-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.header-about {
+    max-height: 280px;
+    transform: translateY(45px);
+    box-shadow: 0 2px 12px -4px rgba(0, 0, 0, 0.25);
+}
+
+.about-text {
+    padding: 20px;
+}
