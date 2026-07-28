@@ -71,12 +71,16 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: bisque;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 960px;
     width: 100%;
+    background-color: aliceblue;
 }
+
+/* header */
 
 .header-inner {
     display: flex;
@@ -102,4 +106,57 @@ body {
 
 .about-text {
     padding: 20px;
+}
+
+/* main */
+
+.main-inner {
+    padding: 0px 30px;
+}
+
+.main-cards {
+    display: grid;
+}
+
+article {
+    margin-top: 10px;
+    max-width: 260px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.card-img {
+    font-size: 34px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 50px 0px;
+}
+
+.card-descr {
+    padding: 15px 20px;
+}
+
+.one {
+    background-color: brown;
+}
+
+.two {
+    background-color: blueviolet;
+}
+
+.three {
+    background-color: green;
+}
+
+.four {
+    background-color: pink;
+}
+
+.five {
+    background-color: orange;
+}
+
+.six {
+    background-color: blue;
 }
