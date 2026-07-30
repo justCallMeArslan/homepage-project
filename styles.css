@@ -101,8 +101,24 @@ body {
 
 .header-about {
     max-height: 280px;
-    transform: translateY(45px);
+    margin-top: 45px;
     box-shadow: 0 2px 12px -4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.header-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-self: flex-end;
+    margin-top: auto;
+    padding: 0px 20px 30px 0px;
+}
+
+.header-icons img {
+    width: clamp(18px, 2.5vw, 26px);
+    height: clamp(18px, 2.5vw, 26px);
 }
 
 .about-text {
@@ -169,7 +185,7 @@ article {
 }
 
 
-/* contacts */
+/* contacts/footer */
 
 
 .footer-inner {
