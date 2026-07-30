@@ -207,6 +207,36 @@ article {
     height: 390px;
 }
 
-.footer-contact-me h2 {
-    margin-bottom: 20px;
+
+.footer-contact-me p {
+    margin: 20px 0px;
+}
+
+.contact-details ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0px;
+}
+
+.contact-details li {
+    display: flex;
+    gap: 0.5rem;
+
+}
+
+.contact-details img {
+    width: clamp(12px, 2.5vw, 24px);
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.footer-icons img {
+    width: clamp(18px, 2.5vw, 26px);
+    height: clamp(18px, 2.5vw, 26px);
 }
