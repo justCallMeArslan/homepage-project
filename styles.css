@@ -87,7 +87,16 @@ body {
     background: transparent;
     position: relative;
     isolation: isolate;
-    
+
+}
+
+h1 {
+    position: absolute;
+    left: 65px;
+    top: 330px;
+    z-index: 1;
+    color: white;
+    font-size: 46px;
 }
 
 .header-inner::before {
@@ -100,8 +109,8 @@ body {
             100% calc(100% - 240px),
             0 100%);
     z-index: -1;
-    
-    
+
+
 }
 
 .header-prof-pic {
